@@ -1,5 +1,8 @@
 import streamlit as st
 import whisper
+import subprocess
+import openai
+import ffmpeg
 
 model = whisper.load_model("base")
 audio = "audio.mp3"
