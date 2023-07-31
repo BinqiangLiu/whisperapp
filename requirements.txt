@@ -8,7 +8,7 @@ python-dotenv
 langdetect
 numpy
 av
-pydub
+#pydub
 wave
 soundfile
 sounddevice
@@ -17,4 +17,3 @@ ffmpeg-python
 python-ffmpeg
 scipy
 #pygame
-subprocess
