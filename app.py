@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 import os
 
 model = whisper.load_model("base")
-audio = "audio.mp3"
+audio = "audio.webm"
 result = model.transcribe(audio)
 
 with open("transcription.txt", "w", encoding="utf-8") as txt:
